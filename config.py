@@ -22,7 +22,7 @@ API_HASH = os.getenv("API_HASH", "20fcf051ad48130f35fe01e82f5417cd")
 BOT_TOKEN = os.getenv("BOT_TOKEN", "7976010249:AAHX1GvKqNOuUq2QxOBqgOtzYs7yabD6l00
 ")
 MONGO_DB = os.getenv("MONGO_DB", "")
-OWNER_ID = list(map(int, os.getenv("OWNER_ID", "").split())) # list seperated via space
+OWNER_ID = list(map(int, os.getenv("OWNER_ID", "8002925281").split())) # list seperated via space
 DB_NAME = os.getenv("DB_NAME", "telegram_downloader")
 STRING = os.getenv("STRING", None) # optional
 LOG_GROUP = int(os.getenv("LOG_GROUP", "-1001234456")) # optional with -100
@@ -35,6 +35,7 @@ FREEMIUM_LIMIT = int(os.getenv("FREEMIUM_LIMIT", "0"))
 PREMIUM_LIMIT = int(os.getenv("PREMIUM_LIMIT", "500"))
 JOIN_LINK = os.getenv("JOIN_LINK", "https://t.me/+kRNeUcfaSdQ4MDFl") # this link for start command message
 ADMIN_CONTACT = os.getenv("ADMIN_CONTACT", "https://t.me/Error707404")
+
 
 
 
